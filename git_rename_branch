@@ -1,0 +1,7 @@
+#!/bin/bash
+# $1: Old Branch Name
+# $2: New Branch Name
+git branch -m ${1} ${2}
+git push origin :${1}
+git push --set-upstream origin ${2}
+
