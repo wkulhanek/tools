@@ -13,7 +13,8 @@
 # Third clean/delete all images that now have '<none>' as the tag.
 # Finally print the current list of local images.
 
-EXTRA_IMAGES="sonatype/nexus3:latest rocketchat/rocket.chat centos:7"
+#EXTRA_IMAGES="sonatype/nexus3:latest rocketchat/rocket.chat centos:7"
+EXTRA_IMAGES="sonatype/nexus3:latest centos:7"
 
 bold=$(tput bold)
 normal=$(tput sgr0)

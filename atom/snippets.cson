@@ -59,6 +59,13 @@
 
       endif::showscript[]
       """
+  'Image':
+      'prefix': 'img'
+      'body': """
+      image::images/${1:Image File Name}.png
+      $2
+      """
+'.text.plain':
   'New Assessment Question (Binary)':
       'prefix': 'aqb'
       'body': """
