@@ -15,7 +15,7 @@
 
 #EXTRA_IMAGES="sonatype/nexus3:latest rocketchat/rocket.chat centos:7"
 #EXTRA_IMAGES="sonatype/nexus3:latest centos:7 couchbase/server:community couchdb:latest"
-EXTRA_IMAGES="sonatype/nexus3:latest centos:7 quay.io/operator-framework/ansible-operator:latest"
+EXTRA_IMAGES="sonatype/nexus3:latest centos:7 quay.io/operator-framework/ansible-operator:latest quay.io/operator-framework/helm-operator:latest"
 
 bold=$(tput bold)
 normal=$(tput sgr0)
